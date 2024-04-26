@@ -1,0 +1,23 @@
+.header{
+    background-color: #2020d8;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+}
+
+#navbar {
+    list-style-type: none;
+    font-size: larger;
+    padding-top: 10px;
+    
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+}
+
