@@ -1,23 +1,198 @@
-.header{
-    background-color: #2020d8;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+#header{
     display: flex;
-    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 5px 25px rgba(122, 88, 4, 0.06);
+    position: sticky;
+    top: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-.logo img{
-    height: 70px;
-    width: 70px;
+#navbar li{
+    padding: 0 20px;
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+    color: #ffffff;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgb(210, 200, 14);
+}
+
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#login h6{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500px;
+    padding: 0 20px;
+}
+
+#login a{
+    text-decoration: none;
+}
+
+#login #reg{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#top{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 370px;
+    flex-direction: column;
+}
+
+#top h2{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+}
+
+#top h5{
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#top #g{
+    background-color: rgb(70, 224, 70);
+    color: #ffffff;
     padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 10px;
 }
 
-#navbar {
-    list-style-type: none;
-    font-size: larger;
-    padding-top: 10px;
-    
+#top #learn{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#top #more{
+    margin-top: 30px;
+}
+
+#logbody{
+    padding: 150px 450px;
+    background-image: url("pic/logback.jpg");
+    background-size: cover;
+}
+
+#loginput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logsection{
+    border: black;
+    border-width: 1px;
+    background-color: rgb(44, 174, 229);
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: #000000;
+    border-width: 1px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+    padding: 15px;
+}
+
+#log h2{
+    color: #ffffff;
     text-align: center;
-    justify-content: space-between;
-    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#log input{
+    border-radius: 30px;
+    padding: 10px 70px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#forgot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+
+#forgot h6{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+#forgot a{
+    margin-bottom: 30px;
+}
+
+#logbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logbutton a{
+    background-color: #ffffff;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 70px;
+    color: black;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#logbutton input{
+    padding:10px 70px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#logreg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#logreg h3{
+    margin-right: 20px;
+    color: #ffffff;
 }
 

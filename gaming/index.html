@@ -8,16 +8,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <section class="header">
-        <a class="logo"><img src="pic/logo.png"></a>
+    <section id="header">
+        <a><img src="pic/logo.png" class="logo"></a>
+ 
         <nav>
             <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="games.html">Games</a></li>
-                <li><a href="article.html">Articles</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="article.html">Article</a></li>
+                <li><a href="contact.html">About</a></li>
             </ul>
         </nav>
+
+    <ul id="login">
+        <li></li><a href="login.html"><h6>Login</h6></a></li>
+        <li></li><a href="login.html" id="reg"><h6>Register</h6></a></li>
+    </ul>
+    </section>
+
+    <section id="top">
+        <h2>Welcome to the Ultimate Gaming Portal</h2>
+        <h5>Explore a world of endless gaming possibilities</h5>
+        <div id="more">
+            <a href="games.html" id="g">Start playing now</a>
+            <a href="contact.html" id="learn">Learn more</a>
+        </div>
     </section>
 </body>
 </html>
