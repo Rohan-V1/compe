@@ -115,6 +115,22 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+}
+
+#loginput #usin{
+    position: relative;
+}
+
+#loginput #passin{
+    position: relative;
+}
+
+
+#loginput i{
+    position: absolute;
+    right: 8%;
+    top: 15%;
 }
 
 #logsection{
@@ -139,9 +155,9 @@
 
 #log input{
     border-radius: 30px;
-    padding: 10px 70px;
+    padding: 10px 60px;
     margin-bottom: 30px;
-    text-align: center;
+    text-align: left;
 }
 
 #forgot{
