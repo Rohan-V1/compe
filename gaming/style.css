@@ -265,3 +265,38 @@
     text-decoration: none;
     font-size: 20px;
 }
+
+#feat{
+    text-align: center;
+    background-color: black;
+    padding: 30px 30px;
+}
+
+#feat h1{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#feat1{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+#feat .f1{
+    border: 20px ;
+    width: 480px;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+
+#feat .f1 img{
+    max-width: 100%;
+}
+
+#feat .f1 h3{
+    color: #ffffff;
+    padding-top: 20px;
+}
