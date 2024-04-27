@@ -269,7 +269,7 @@
 #feat{
     text-align: center;
     background-color: black;
-    padding: 30px 30px;
+    padding: 50px 30px;
 }
 
 #feat h1{
@@ -299,4 +299,15 @@
 #feat .f1 h3{
     color: #ffffff;
     padding-top: 20px;
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+}
+
+footer h3{
+    color: #ffffff;
 }
