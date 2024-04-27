@@ -86,6 +86,13 @@
     font-size: 20px;
 }
 
+#top p{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #top #g{
     background-color: rgb(70, 224, 70);
     color: #ffffff;
@@ -139,8 +146,8 @@
     background-color: rgb(44, 174, 229);
     background: transparent;
     backdrop-filter: blur(20px);
-    border: #000000;
-    border-width: 1px;
+    border: solid #eac3c3;
+    border-width: 0.5px;
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
     padding: 15px;
@@ -212,3 +219,49 @@
     color: #ffffff;
 }
 
+#legend{
+    background-color: rgb(234, 234, 191);
+    text-align: center;
+    padding: 50px 100px;
+}
+#legend h1{
+    font-size: 30px;
+    font-weight: 900px;
+}
+
+.legend1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leg1{
+    width: 250px;
+}
+
+.leg1 .legstar{
+    margin: 20px 1px;
+}
+
+.leg1 .legstar i{
+    font-size: 30px;
+    color: gold;
+}
+
+.leg1 .legtext{
+    font-size: 20px;
+}
+
+.leg1 .legtext h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#legend a{
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
