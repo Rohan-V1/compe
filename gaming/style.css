@@ -46,6 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    list-style: none;
 }
 
 #login h6{
@@ -340,4 +341,33 @@
     left: 120px;
     margin-top: 10px;
     color: aqua;
+}
+
+#article{
+    background-color: black;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+#article h1{
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.art{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid #ffffff;
+    border-width: 1px;
+    margin-top: 30px;
+}
+
+.art .artpar{
+    color: #ffffff;
+    padding: 30px 40px;
+}
+
+.art .artimg{
+    padding: 10px 20px;
 }
