@@ -17,6 +17,7 @@
     box-shadow: 0 5px 25px rgba(122, 88, 4, 0.06);
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 #navbar{
@@ -97,15 +98,27 @@
 #top #g{
     background-color: rgb(70, 224, 70);
     color: #ffffff;
-    padding: 10px;
+    padding: 10px 10px 12px 10px;
     border-radius: 10px;
     text-decoration: none;
     margin-right: 10px;
 }
 
+#top #g:hover{
+    background-color: rgb(68, 237, 68);
+}
+
+#top #learn:hover{
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px 12px 10px;
+    margin-left: -12px;
+}
+
 #top #learn{
     text-decoration: none;
     color: #ffffff;
+    border-radius: 10px;
 }
 
 #top #more{
@@ -370,4 +383,8 @@
 
 .art .artimg{
     padding: 10px 20px;
+}
+
+.caro{
+    z-index: 1;
 }
